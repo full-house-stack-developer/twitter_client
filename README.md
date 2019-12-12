@@ -3,20 +3,17 @@ Application where user logins by his own twitter account, displays users tweets,
 
 1) To run frontend at port 3000
 
-cd twitter_client/client/
+    cd twitter_client/client/
 
-sudo npm install
+    sudo npm install
 
-sudo npm run start
+    sudo npm run start
 
 
 2) To run backend at port 4000
 
+    cd twitter_client/server/
 
-cd twitter_client/server/
+    sudo npm install
 
-
-sudo npm install
-
-
-sudo node index.js
+    sudo node index.js
