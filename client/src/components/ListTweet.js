@@ -36,14 +36,6 @@ export default class ListTweet extends Component {
     });
   }
 
-  onHover() {
-    this.refs.deleteX.style.display = "block";
-  }
-
-  onExit() {
-    this.refs.deleteX.style.display = "none";
-  }
-
   render() {
     const { error, tweets } = this.state;
     return (
